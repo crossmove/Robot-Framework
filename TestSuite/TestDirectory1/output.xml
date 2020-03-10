@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.5 on win32)" generated="20200310 21:47:30.222" rpa="false">
+<suite id="s1" name="TestCases1" source="C:\Users\Admin\Desktop\RobotTestSolution\TestSuite\TestDirectory1\TestCases1.robot">
+<test id="s1-t1" name="Should Be True">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<assign>
+<var>${rc}</var>
+</assign>
+<msg timestamp="20200310 21:47:30.256" level="INFO">${rc} = 5</msg>
+<status status="PASS" starttime="20200310 21:47:30.254" endtime="20200310 21:47:30.256"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>PASS</arg>
+</arguments>
+<assign>
+<var>${status}</var>
+</assign>
+<msg timestamp="20200310 21:47:30.257" level="INFO">${status} = PASS</msg>
+<status status="PASS" starttime="20200310 21:47:30.257" endtime="20200310 21:47:30.257"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>32</arg>
+</arguments>
+<assign>
+<var>${number}</var>
+</assign>
+<msg timestamp="20200310 21:47:30.258" level="INFO">${number} = 32</msg>
+<status status="PASS" starttime="20200310 21:47:30.258" endtime="20200310 21:47:30.258"></status>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>1</arg>
+<arg>2</arg>
+</arguments>
+<assign>
+<var>@{list}</var>
+</assign>
+<msg timestamp="20200310 21:47:30.259" level="INFO">@{list} = [ 1 | 2 ]</msg>
+<status status="PASS" starttime="20200310 21:47:30.259" endtime="20200310 21:47:30.259"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${rc} &lt; 10</arg>
+</arguments>
+<status status="PASS" starttime="20200310 21:47:30.260" endtime="20200310 21:47:30.261"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>'${status}' == 'PASS'</arg>
+</arguments>
+<status status="PASS" starttime="20200310 21:47:30.261" endtime="20200310 21:47:30.262"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${number}</arg>
+</arguments>
+<status status="PASS" starttime="20200310 21:47:30.263" endtime="20200310 21:47:30.263"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${list}</arg>
+</arguments>
+<status status="PASS" starttime="20200310 21:47:30.264" endtime="20200310 21:47:30.265"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>hi</arg>
+<arg>stream=STDOUT</arg>
+<arg>no_newline=False</arg>
+</arguments>
+<status status="PASS" starttime="20200310 21:47:30.265" endtime="20200310 21:47:32.316"></status>
+</kw>
+<status status="PASS" starttime="20200310 21:47:30.253" endtime="20200310 21:47:32.317" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200310 21:47:30.226" endtime="20200310 21:47:32.318"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TestCases1">TestCases1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

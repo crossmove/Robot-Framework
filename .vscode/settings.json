@@ -1,0 +1,18 @@
+{
+    "rfLanguageServer.libraries": [
+        "BuiltIn-3.0.4",
+        "Collections-3.0.4",
+        "DateTime-3.0.4",
+        "Dialogs-3.0.4",
+        "OperatingSystem-3.0.4",
+        "Process-3.0.4",
+        "Screenshot-3.0.4",
+        "SeleniumLibrary-3.2.0",
+        "String-3.0.4",
+        "Telnet-3.0.4",
+        "XML-3.0.4"
+    ],
+    "python.pythonPath": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
