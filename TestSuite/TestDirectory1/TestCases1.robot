@@ -4,6 +4,11 @@ Resource   ResourceFile1.robot
 Library    LibraryFile1.py
 Variables    callmethod.py
 
+
+####Create Object Oriented Class python class file.
+##   https://stackoverflow.com/questions/47765335/in-robot-framework-how-do-you-to-create-object-of-class-and-call-the-methods-in
+
+
 ##http://robotframework.org/robotframework/latest/libraries/BuiltIn.html
 ### https://medium.com/edureka/robot-framework-tutorial-f8a75ab23cfd
 
