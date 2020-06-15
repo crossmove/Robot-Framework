@@ -5,6 +5,7 @@ Library    LibraryFile1.py
 Variables    callmethod.py
 
 ##http://robotframework.org/robotframework/latest/libraries/BuiltIn.html
+### https://medium.com/edureka/robot-framework-tutorial-f8a75ab23cfd
 
 ##Notes
     ##${Binary1}=	Convert To Binary	10    #after variable use direct = and then give two whitespaces to avoid confusing.
